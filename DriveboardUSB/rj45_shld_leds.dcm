@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RJ45_SHLD_LEDS
+D RJ45, status leds
+K RJ45 RJ45_LEDS
+$ENDCMP
+#
+#End Doc Library
