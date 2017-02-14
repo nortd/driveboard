@@ -584,8 +584,6 @@ F 3 "" H 1000 6350 50  0000 C CNN
 $EndComp
 Text GLabel 850  6350 0    39   Input ~ 0
 PD4
-Wire Wire Line
-	850  6450 1150 6450
 Text GLabel 1950 6350 2    39   Input ~ 0
 PWR_AUXAIR
 Text GLabel 1950 6450 2    39   Input ~ 0
@@ -618,8 +616,6 @@ F 3 "" H 3100 6350 50  0000 C CNN
 $EndComp
 Text GLabel 2950 6450 0    39   Input ~ 0
 GND
-Wire Wire Line
-	2950 6450 3250 6450
 Text GLabel 2950 6350 0    39   Input ~ 0
 PD6
 Text GLabel 4050 6450 2    39   Input ~ 0
@@ -1291,8 +1287,6 @@ Text GLabel 10100 4550 0    39   Input ~ 0
 PB2
 Text GLabel 10100 4350 0    39   Input ~ 0
 PB5
-Wire Wire Line
-	6600 4750 6700 4750
 $Comp
 L D D2
 U 1 1 589C6838
@@ -1404,4 +1398,10 @@ NoConn ~ 8800 2050
 NoConn ~ 8800 2150
 NoConn ~ 8800 2350
 NoConn ~ 8800 2450
+Wire Wire Line
+	850  6450 1150 6450
+Wire Wire Line
+	2950 6450 3250 6450
+Wire Wire Line
+	6600 4750 6700 4750
 $EndSCHEMATC
