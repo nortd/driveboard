@@ -96,12 +96,12 @@ $EndComp
 $Comp
 L ArduinoUnoR3 Arduino1
 U 1 1 58383342
-P 2250 1650
-F 0 "Arduino1" H 2250 2500 60  0000 C CNN
-F 1 "ArduinoUnoR3" H 2250 800 60  0000 C CNN
-F 2 "footprints:ArduinoUnoR3" H 2250 1650 60  0001 C CNN
-F 3 "" H 2250 1650 60  0001 C CNN
-	1    2250 1650
+P 1450 1650
+F 0 "Arduino1" H 1450 2500 60  0000 C CNN
+F 1 "ArduinoUnoR3" H 1450 800 60  0000 C CNN
+F 2 "footprints:ArduinoUnoR3" H 1450 1650 60  0001 C CNN
+F 3 "" H 1450 1650 60  0001 C CNN
+	1    1450 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -127,57 +127,57 @@ F 3 "" H 1550 6400 60  0001 C CNN
 	1    1550 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 1400 0    39   Input ~ 0
+Text GLabel 900  1400 0    39   Input ~ 0
 5V
-Text GLabel 1700 1500 0    39   Input ~ 0
+Text GLabel 900  1500 0    39   Input ~ 0
 GND
-Text GLabel 1700 1600 0    39   Input ~ 0
+Text GLabel 900  1600 0    39   Input ~ 0
 GND
-Text GLabel 1700 1900 0    39   Input ~ 0
+Text GLabel 900  1900 0    39   Input ~ 0
 PC0
-Text GLabel 1700 2000 0    39   Input ~ 0
+Text GLabel 900  2000 0    39   Input ~ 0
 PC1
-Text GLabel 1700 2100 0    39   Input ~ 0
+Text GLabel 900  2100 0    39   Input ~ 0
 PC2
-Text GLabel 1700 2200 0    39   Input ~ 0
+Text GLabel 900  2200 0    39   Input ~ 0
 PC3
-Text GLabel 1700 2300 0    39   Input ~ 0
+Text GLabel 900  2300 0    39   Input ~ 0
 PC4
-Text GLabel 1700 2400 0    39   Input ~ 0
+Text GLabel 900  2400 0    39   Input ~ 0
 PC5
-NoConn ~ 1700 1300
-NoConn ~ 1700 1200
-NoConn ~ 1700 1100
-NoConn ~ 1700 1000
-NoConn ~ 2800 900 
-NoConn ~ 1700 1700
-NoConn ~ 2800 2400
-NoConn ~ 2800 2300
-Text GLabel 2800 2200 2    39   Input ~ 0
+NoConn ~ 900  1300
+NoConn ~ 900  1200
+NoConn ~ 900  1100
+NoConn ~ 900  1000
+NoConn ~ 2000 900 
+NoConn ~ 900  1700
+NoConn ~ 2000 2400
+NoConn ~ 2000 2300
+Text GLabel 2000 2200 2    39   Input ~ 0
 PD2
-Text GLabel 2800 2100 2    39   Input ~ 0
+Text GLabel 2000 2100 2    39   Input ~ 0
 PD3
-Text GLabel 2800 2000 2    39   Input ~ 0
+Text GLabel 2000 2000 2    39   Input ~ 0
 PD4
-Text GLabel 2800 1900 2    39   Input ~ 0
+Text GLabel 2000 1900 2    39   Input ~ 0
 PD5
-Text GLabel 2800 1800 2    39   Input ~ 0
+Text GLabel 2000 1800 2    39   Input ~ 0
 PD6
-Text GLabel 2800 1700 2    39   Input ~ 0
+Text GLabel 2000 1700 2    39   Input ~ 0
 PD7
-Text GLabel 2800 1600 2    39   Input ~ 0
+Text GLabel 2000 1600 2    39   Input ~ 0
 PB0
-Text GLabel 2800 1500 2    39   Input ~ 0
+Text GLabel 2000 1500 2    39   Input ~ 0
 PB1
-Text GLabel 2800 1400 2    39   Input ~ 0
+Text GLabel 2000 1400 2    39   Input ~ 0
 PB2
-Text GLabel 2800 1300 2    39   Input ~ 0
+Text GLabel 2000 1300 2    39   Input ~ 0
 PB3
-Text GLabel 2800 1200 2    39   Input ~ 0
+Text GLabel 2000 1200 2    39   Input ~ 0
 PB4
-Text GLabel 2800 1100 2    39   Input ~ 0
+Text GLabel 2000 1100 2    39   Input ~ 0
 PB5
-Text GLabel 2800 1000 2    39   Input ~ 0
+Text GLabel 2000 1000 2    39   Input ~ 0
 GND
 $Comp
 L GeckoHeader G201X_X_1
@@ -890,15 +890,15 @@ SHILD
 Text GLabel 7350 2650 0    39   Input ~ 0
 SHILD
 Text GLabel 8600 1600 0    39   Input ~ 0
-SHILD_stpr
+SHILD
 Text GLabel 9800 1600 0    39   Input ~ 0
-SHILD_stpr
+SHILD
 Text GLabel 11000 1600 0    39   Input ~ 0
-SHILD_stpr
+SHILD
 Text GLabel 7350 3700 0    39   Input ~ 0
 SHILD
 Text GLabel 11000 2650 0    39   Input ~ 0
-SHILD_stpr
+SHILD
 Text GLabel 7350 4750 0    39   Input ~ 0
 SHILD
 Text GLabel 6000 6850 0    39   Input ~ 0
@@ -1315,7 +1315,7 @@ F 3 "" H 9250 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 9600 2650 0    39   Input ~ 0
-SHILD_stpr
+SHILD
 Text GLabel 8800 2250 0    39   Input ~ 0
 GND_AUXAIR
 Text GLabel 8800 1850 0    39   Input ~ 0
@@ -1404,4 +1404,82 @@ Wire Wire Line
 	2950 6450 3250 6450
 Wire Wire Line
 	6600 4750 6700 4750
+$Comp
+L CONN_01X01 M5
+U 1 1 58A9B2BB
+P 3800 1050
+F 0 "M5" H 3800 1150 50  0000 C CNN
+F 1 "MOUNT" V 3900 1050 50  0000 C CNN
+F 2 "" H 3800 1050 50  0000 C CNN
+F 3 "" H 3800 1050 50  0000 C CNN
+	1    3800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 M2
+U 1 1 58A9B77C
+P 3800 1700
+F 0 "M2" H 3800 1800 50  0000 C CNN
+F 1 "MOUNT" V 3900 1700 50  0000 C CNN
+F 2 "" H 3800 1700 50  0000 C CNN
+F 3 "" H 3800 1700 50  0000 C CNN
+	1    3800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 M6
+U 1 1 58A9B8FB
+P 3100 1050
+F 0 "M6" H 3100 1150 50  0000 C CNN
+F 1 "MOUNT" V 3200 1050 50  0000 C CNN
+F 2 "" H 3100 1050 50  0000 C CNN
+F 3 "" H 3100 1050 50  0000 C CNN
+	1    3100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 M1
+U 1 1 58A9B9B0
+P 3100 1700
+F 0 "M1" H 3100 1800 50  0000 C CNN
+F 1 "MOUNT" V 3200 1700 50  0000 C CNN
+F 2 "" H 3100 1700 50  0000 C CNN
+F 3 "" H 3100 1700 50  0000 C CNN
+	1    3100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 M4
+U 1 1 58A9BA57
+P 4500 1050
+F 0 "M4" H 4500 1150 50  0000 C CNN
+F 1 "MOUNT" V 4600 1050 50  0000 C CNN
+F 2 "" H 4500 1050 50  0000 C CNN
+F 3 "" H 4500 1050 50  0000 C CNN
+	1    4500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 M3
+U 1 1 58A9BB00
+P 4500 1700
+F 0 "M3" H 4500 1800 50  0000 C CNN
+F 1 "MOUNT" V 4600 1700 50  0000 C CNN
+F 2 "" H 4500 1700 50  0000 C CNN
+F 3 "" H 4500 1700 50  0000 C CNN
+	1    4500 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 1050 0    39   Input ~ 0
+SHILD
+Text GLabel 2900 1700 0    39   Input ~ 0
+SHILD
+Text GLabel 3600 1050 0    39   Input ~ 0
+SHILD
+Text GLabel 3600 1700 0    39   Input ~ 0
+SHILD
+Text GLabel 4300 1050 0    39   Input ~ 0
+SHILD
+Text GLabel 4300 1700 0    39   Input ~ 0
+SHILD
 $EndSCHEMATC
