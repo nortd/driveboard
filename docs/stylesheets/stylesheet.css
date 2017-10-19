@@ -18,9 +18,12 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(55, 55, 55, 0.7);
+  background-color: rgba(55, 55, 55, 0.08);
+  border-color: rgba(55, 55, 55, 0.2);
+  /*color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);*/
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -29,10 +32,14 @@ a {
     margin-left: 1rem; }
 
 .btn:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
+  color: rgba(22, 22, 22, 1.0);
+  background-color: rgba(155, 155, 155, 0.2);
+  border-color: rgba(22, 22, 22, 0.4);
+  /*color: rgba(255, 255, 255, 0.8);
   background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+  border-color: rgba(255, 255, 255, 0.3); */
+  text-decoration: none;
+}
 
 @media screen and (min-width: 64em) {
   .btn {
@@ -54,20 +61,21 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  /*color: #fff;*/
+  color: #888888;
   text-align: center;
-  background-color: #105194;
+  /*background-color: #105194;*/
   /*background-image: linear-gradient(120deg, #155799, #105194);*/
-  background-image: linear-gradient(180deg, #155799, #5597d9);
+  /*background-image: linear-gradient(180deg, #155799, #5597d9);*/
 }
-
+/*
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 5rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 3rem 4rem; } }*/
 
 @media screen and (max-width: 42em) {
   .page-header {
@@ -225,7 +233,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+}
 
 .site-footer-owner {
   display: block;
